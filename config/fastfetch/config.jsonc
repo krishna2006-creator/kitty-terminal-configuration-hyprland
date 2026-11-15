@@ -1,0 +1,39 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+//replace this below in ur fastfetch config.jsonc
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/linus/Pictures/Your_image.png",
+    "width": 24,
+    "height": 12,
+    "padding": {
+      "right": 4,
+      "top":4,
+      "left":3,
+      "bottom":2,
+    }
+  },
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "disk",
+    "battery",
+    "colors"
+  ]
+}
